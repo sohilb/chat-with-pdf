@@ -1,0 +1,18 @@
+# still inside chat-with-pdf/
+cat > .gitignore <<'EOF'
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+
+# --- Env / secrets ---
+.env          # never commit secrets!
+
+# --- Streamlit ---
+.streamlit/
+
+# --- OS crap ---
+.DS_Store
+Thumbs.db
+EOF

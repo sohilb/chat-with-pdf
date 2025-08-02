@@ -1,0 +1,21 @@
+# Core app framework
+streamlit>=1.46,<2.0        # Latest tested (1.46.1) but allow any 1.x
+
+# Env & config
+python-dotenv>=1.0          # .env loading
+
+# LangChain v0.3 modular stack
+langchain-core>=0.3,<0.4
+langchain-community>=0.3,<0.4
+langchain-openai>=0.3,<0.4
+langchain-chroma>=0.2,<0.4         # 0.2.x still compatible with core 0.3
+langchain-text-splitters>=0.3,<0.4
+
+# Vector store backend
+chromadb>=0.5,<1.0           # 0.5.x stable Python client
+
+# Model & embeddings clients
+openai>=1.93,<2.0            # Tested with 1.93.0
+
+# PDF parsing helper
+pypdf>=4.0,<5.0
