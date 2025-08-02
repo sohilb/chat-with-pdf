@@ -3,7 +3,7 @@
 **Chat with PDF** is a lightweight Streamlit app that lets you hold natural‑language conversations with the contents of any PDF document.  
 Behind the scenes it spins up a Retrieval‑Augmented Generation (RAG) pipeline powered by [LangChain](https://github.com/langchain-ai/langchain), [OpenAI](https://openai.com/), and an in‑memory [Chroma](https://docs.trychroma.com/) vector store.
 
-![Screenshot](./docs/screenshot.png)
+![Screenshot](docs/screenshot.png)
 
 ---
 
